@@ -11,5 +11,11 @@ def salud():
 def give():
     print("Give")
 
+def foolish():
+    print("this is a random message")
+
 print(compute(3))
 print(salud())
+foolish()
+
+car = input("tell me: ")
