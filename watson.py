@@ -7,4 +7,4 @@ def MrFox():
 
 def MrDummy():
   # Mr Dummy has done a modification here!
-  return None
+  return 1 / 0
