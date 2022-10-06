@@ -8,5 +8,8 @@ def salud():
     name = input('Put here your name: ')
     return str.capitalize(name)
 
+def give():
+    print("Give")
+
 print(compute(3))
 print(salud())
