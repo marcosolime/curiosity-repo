@@ -5,6 +5,7 @@ def MrFox():
     # Mr Fox, in local, worked very hard to do this thing.
     return 42
 
-def MrDummy():
-  # Mr Dummy has done a modification here!
-  return 1 / 0
+def MrDummy(x):
+  # Mr Dummy fixed the issue
+  if type(x) == int and x != 0:
+    return 1 / x
