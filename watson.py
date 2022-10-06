@@ -7,4 +7,5 @@ def MrFox():
 
 def MrDummy(x):
   # Mr Dummy 
-  return 1 / x
+  if type(x) == int and x != 0:
+    return 1 / x
