@@ -6,6 +6,5 @@ def MrFox():
     return 42
 
 def MrDummy(x):
-  # Mr Dummy fixed the issue
-  if type(x) == int and x != 0:
-    return 1 / x
+  # Mr Dummy 
+  return 1 / x
