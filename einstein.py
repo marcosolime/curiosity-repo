@@ -8,5 +8,9 @@ def salud():
     name = input('Put here your name: ')
     return str.capitalize(name)
 
+def foolish():
+    print("this is a random message")
+
 print(compute(3))
 print(salud())
+foolish()
