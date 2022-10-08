@@ -19,3 +19,7 @@ print(salud())
 foolish()
 
 car = input("tell me: ")
+
+l = ('For whom the bell tolls', 'Grimms\' Fairy Tails', 'Tender is the night')
+
+
